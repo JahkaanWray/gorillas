@@ -9,6 +9,7 @@ from datetime import datetime
 from datetime import timedelta
 import math
 import mariadb
+import config
 
 mydb =  mariadb.connect(
       host="sql904.main-hosting.eu",

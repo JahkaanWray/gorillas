@@ -6,6 +6,7 @@ from datetime import timedelta
 import math
 import numpy as np
 import mariadb
+import config
 
 
 startDate = datetime(2022,11,1)

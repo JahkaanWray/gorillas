@@ -13,6 +13,7 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
 from random import random
+import config
 
 mydb =  mariadb.connect(
         host="localhost",
