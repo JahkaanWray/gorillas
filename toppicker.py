@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 from datetime import timedelta
 import math
+import config
 
 storeId = config.storeId
 
@@ -18,8 +19,8 @@ headers = {'Content-Type':'application/json',
 url = 'https://prod-api.gorillas.io/api/market/orders/list'
 
 
-startTime = datetime(2023,3,2)
-endTime = datetime(2023,3,2)
+startTime = datetime(2023,4,3)
+endTime = datetime(2023,4,3)
 delta = (endTime - startTime).days + 1
 timePeriods = math.floor(delta/14)
 leftover = delta % 14

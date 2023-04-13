@@ -19,7 +19,7 @@ headers = {'Content-Type':'application/json',
 
 url = 'https://prod-api.gorillas.io/api/market/orders/list'
 
-aTime = datetime(2023,3,14)
+aTime = datetime(2023,4,1)
 bTime = aTime + timedelta(days=1) - timedelta(seconds=1)
 
 startTimeCode = aTime.strftime('%Y') + '-' + aTime.strftime('%m') + '-' + aTime.strftime('%d') + 'T' + aTime.strftime('%H') + ':' + aTime.strftime('%M') + ':' + aTime.strftime('%S') +'.000Z'
